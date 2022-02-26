@@ -2,6 +2,7 @@ let home = document.getElementById('home')
 let about = document.getElementById('about')
 let donate = document.getElementById('donate')
 let bill = document.getElementById('bill')
+let membership = document.getElementById('membership')
 let contact = document.getElementById('contact')
 let hindiBtn = document.getElementById('hindi')
 let urduBtn = document.getElementById('urdu')
@@ -46,6 +47,7 @@ const english = {
     donate:'Donate',
     contact:'Contact',
     bill:'Bill',
+    membership:'Membership',
     headerH1:'National Leader:',
     headerSpan:'Hon. Adv. Prakash and Balasaheb Ambedkar',
     headerH12:'National Leader:',
@@ -82,6 +84,7 @@ const hindi = {
     donate:'दान करना',
     contact:'संपर्क करें',
     bill:'विपत्र',
+    membership:'सदस्यता',
     headerH1:'राष्ट्रीय नेता:',
     headerSpan:'माननीय सलाह प्रकाश और बालासाहेब अम्बेडकर',
     headerH12:'राष्ट्रीय नेता:',
@@ -118,6 +121,7 @@ const urdu = {
     donate:'يتبرع',
     contact:'اتصل',
     bill:'فاتورة',
+    membership:'عضوية',
     headerH1:'القائد الوطني:',
     headerSpan:'المحامي المحترم براكاش وبالاشهب أمبيدكار',
     headerH12:'القائد الوطني:',
@@ -155,6 +159,7 @@ const convertToHindi = () => {
     donate.innerHTML = hindi.donate
     contact.innerHTML = hindi.contact
     bill.innerHTML = hindi.bill
+    membership.innerHTML = hindi.membership
     headerH1.innerHTML = hindi.headerH1
     headerH12.innerHTML = hindi.headerH1
     headerSpan.innerText = hindi.headerSpan
@@ -170,10 +175,10 @@ const convertToHindi = () => {
     donatePInternational.innerHTML = hindi.donatePInternational
     gallery.innerText = hindi.gallery
     galleryP.innerText = hindi.galleryP
-    contactH1.innerHTML = hindi.contactH1
-    contactOffice.innerHTML = hindi.contactOffice
-    contactMumbai.innerHTML = hindi.contactMumbai
-    contactSuburban.innerHTML = hindi.contactSuburban
+    contactH1.innerText = hindi.contactH1
+    contactOffice.innerText = hindi.contactOffice
+    contactMumbai.innerText = hindi.contactMumbai
+    contactSuburban.innerText = hindi.contactSuburban
     billH1.innerHTML = hindi.billH1
     billH12.innerHTML = hindi.billH1
     billH13.innerHTML = hindi.billH1
@@ -193,6 +198,7 @@ const convertToUrdu = () => {
     donate.innerHTML = urdu.donate
     contact.innerHTML = urdu.contact
     bill.innerHTML = urdu.bill
+    membership.innerHTML = urdu.membership
     headerH1.innerHTML = urdu.headerH1
     headerH12.innerHTML = urdu.headerH1
     headerSpan.innerText = urdu.headerSpan
@@ -231,6 +237,7 @@ const convertToEnglish = () => {
     donate.innerHTML = english.donate
     contact.innerHTML = english.contact
     bill.innerHTML = english.bill
+    membership.innerHTML = english.membership
     headerH1.innerHTML = english.headerH1
     headerH12.innerHTML = english.headerH1
     headerSpan.innerText = english.headerSpan

@@ -1,19 +1,17 @@
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .show {
   display: none;
 }
 
-.roboto{
-    font-family: 'Roboto', sans-serif;
+.roboto {
+  font-family: "Roboto", sans-serif;
 }
 
-.playfair{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
